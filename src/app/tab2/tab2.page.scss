@@ -1,1 +1,120 @@
+h1 {
+font-size: 105%;
+font-weight: bold;
+}
 
+.titulo {
+  text-align: center;
+}
+
+.defina {
+  text-align: center;
+  background-image: ;
+}
+.list {
+  text-align: justify;
+}
+
+.conteudo {
+  max-width: 500px;
+  text-align: center;
+}
+
+.lampada {
+  max-width: 200px;
+}
+
+:root {
+  --ion-card-background: linear-gradient
+    (139deg, #831affab 0%, transparent 100%);
+  --ion-item-background: transparent;
+}
+
+.reciclabilidade {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+.limpeza {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+.lampada {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+.comercio {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+.clima {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+.saude {
+  animation: cimabaixo 4s infinite alternate;
+}
+
+@keyframes cimabaixo {
+  0% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -3px);
+  }
+}
+
+ion-card {
+  border-radius: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+ion-card:hover {
+  transform: scale(1.03);
+}
